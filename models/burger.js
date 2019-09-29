@@ -1,6 +1,6 @@
 const orm = require("../config/orm.js");
 
-const TABLE_NAME = ""; // ** PUT YOUR TABLE NAME HERE
+const TABLE_NAME = "burgers"; // ** PUT YOUR TABLE NAME HERE
 
 var burger = {
     all: function(cb) {
